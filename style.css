@@ -69,3 +69,23 @@ input {
     padding: 10px;
     margin: 5px;
 }
+@media screen and (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    input {
+        width: 95%;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
