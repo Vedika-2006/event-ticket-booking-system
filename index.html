@@ -50,7 +50,9 @@
     <p>Time: 7:00 PM</p>
     <p>Ticket Price: ₹500</p>
 
+   <a href="#booking">
     <button>Book Ticket</button>
+</a>
 </div>
 
         <div>
@@ -64,7 +66,9 @@
     <p>Time: 8:00 PM</p>
     <p>Ticket Price: ₹1200</p>
 
+    <a href="#booking">
     <button>Book Ticket</button>
+</a>
 </div>
 
        <div>
@@ -77,14 +81,16 @@
     <p>Time: 7:30 PM</p>
     <p>Ticket Price: ₹1500</p>
 
+    <a href="#booking">
     <button>Book Ticket</button>
+</a>
 </div>
 
     </section>
-    <section>
+    <section id="booking">
     <h2>Book Your Ticket</h2>
 
-    <form>
+   <form onsubmit="return bookingSuccess()">
         <input type="text" placeholder="Enter Your Name"><br><br>
 
         <input type="email" placeholder="Enter Your Email"><br><br>
@@ -101,6 +107,11 @@
     <footer>
         <p>© 2026 Event Ticket Booking System | All Rights Reserved</p>
     </footer>
-
+<script>
+function bookingSuccess() {
+    alert("🎉 Booking Successful!\n\nThank you for booking your ticket.\nEnjoy your event! 😊");
+    return false;
+}
+</script>
 </body>
 </html>
