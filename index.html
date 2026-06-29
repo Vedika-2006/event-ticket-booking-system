@@ -86,11 +86,11 @@
 </a>
 </div>
 
-    </section>
     <section id="booking">
     <h2>Book Your Ticket</h2>
 
- <form onsubmit="return bookingSuccess()">
+    <form onsubmit="return bookingSuccess()">
+
         <input type="text" placeholder="Enter Your Name"><br><br>
 
         <input type="email" placeholder="Enter Your Email"><br><br>
@@ -100,19 +100,16 @@
         <input type="number" placeholder="Number of Tickets"><br><br>
 
         <button type="submit">Submit Booking</button>
+
     </form>
 </section>
+
 
     <!-- Footer -->
     <footer>
         <p>© 2026 Event Ticket Booking System | All Rights Reserved</p>
     </footer>
-<script>
-function bookingSuccess() {
-    alert("🎉 Booking Successful!\n\nThank you for booking your ticket.\nEnjoy your event! 😊");
-    return false;
-}
-</script>
+
     <script src="script.js"></script>
 </body>
 </html>
