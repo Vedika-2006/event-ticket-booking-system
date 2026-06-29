@@ -112,3 +112,7 @@ img {
     margin-bottom: 15px;
     border-radius: 10px;
 }
+button:hover{
+    background:#0056b3;
+    cursor:pointer;
+}
