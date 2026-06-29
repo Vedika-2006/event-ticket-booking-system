@@ -135,3 +135,9 @@ section p {
     max-width: 900px;
     margin: auto;
 }
+img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    display: block;
+}
