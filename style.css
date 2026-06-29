@@ -123,3 +123,15 @@ img {
     display: block;
     border-radius: 10px 10px 0 0;
 }
+section {
+    text-align: center;
+    padding: 30px;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    max-width: 900px;
+    margin: auto;
+}
