@@ -262,3 +262,35 @@ footer p{
     border-radius:8px;
     font-size:16px;
 }
+body.dark-mode{
+    background:#121212;
+    color:white;
+}
+
+body.dark-mode header,
+body.dark-mode footer{
+    background:#000;
+}
+
+body.dark-mode .navbar{
+    background:#1e1e1e;
+}
+
+body.dark-mode .event-card,
+body.dark-mode form{
+    background:#2b2b2b;
+    color:white;
+}
+
+body.dark-mode input{
+    background:#333;
+    color:white;
+    border:1px solid #555;
+}
+
+#darkModeBtn{
+    background:none;
+    border:none;
+    font-size:22px;
+    cursor:pointer;
+}
