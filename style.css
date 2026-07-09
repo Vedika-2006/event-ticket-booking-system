@@ -95,36 +95,27 @@ section p{
 
 /* Event Cards */
 
-div{
+.event-card{
     background:white;
     border-radius:12px;
-    margin:25px auto;
-    max-width:700px;
     overflow:hidden;
     box-shadow:0 4px 15px rgba(0,0,0,.1);
     transition:.3s;
 }
 
-div:hover{
+.event-card:hover{
     transform:translateY(-6px);
 }
 
-img{
-    width:100%;
-    height:260px;
-    object-fit:cover;
-}
-
-div h3{
+.event-card h3{
     padding:15px;
     color:#1e3a8a;
 }
 
-div p{
+.event-card p{
     padding:0 15px 8px;
     text-align:left;
 }
-
 /* Buttons */
 
 button{
@@ -243,10 +234,9 @@ footer p{
     text-decoration: none;
     font-weight: bold;
 }
-.event-container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
+.event-card{
+    margin:0;
+
 }
 
 .event-container > div{
