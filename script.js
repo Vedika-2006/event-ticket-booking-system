@@ -24,6 +24,7 @@ function bookingSuccess() {
         alert("❌ Please enter the event name.");
         return false;
     }
+    
 
     if(tickets <= 0){
         alert("❌ Please enter a valid number of tickets.");
@@ -46,4 +47,7 @@ function bookingSuccess() {
     );
 
     return false;
+}
+function selectEvent(eventName){
+    document.getElementById("event").value = eventName;
 }
