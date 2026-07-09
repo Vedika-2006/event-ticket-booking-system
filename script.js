@@ -102,3 +102,17 @@ behavior:"smooth"
 });
 
 }
+function searchEvent() {
+    let input = document.getElementById("search").value.toLowerCase();
+    let cards = document.querySelectorAll(".event-card");
+
+    cards.forEach(function(card) {
+        let text = card.innerText.toLowerCase();
+
+        if (text.includes(input)) {
+            card.style.display = "block";
+        } else {
+            card.style.display = "none";
+        }
+    });
+}
