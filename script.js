@@ -44,20 +44,14 @@ document.getElementById("sEvent").textContent = event;
 document.getElementById("sTickets").textContent = tickets;
 document.getElementById("sBooking").textContent = bookingId;
 document.getElementById("sSeat").textContent = seat;
+    localStorage.setItem("name", name);
+localStorage.setItem("email", email);
+localStorage.setItem("event", event);
+localStorage.setItem("tickets", tickets);
+localStorage.setItem("bookingId", bookingId);
+localStorage.setItem("seat", seat);
     return false;
 }
-localStorage.setItem("name",name);
-
-localStorage.setItem("email",email);
-
-localStorage.setItem("event",event);
-
-localStorage.setItem("tickets",tickets);
-
-localStorage.setItem("bookingId",bookingId);
-
-localStorage.setItem("seat",seat);
-
 function selectEvent(eventName){
     document.getElementById("event").value = eventName;
 }
