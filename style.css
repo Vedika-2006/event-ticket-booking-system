@@ -205,3 +205,31 @@ footer{
         height:220px;
     }
 }
+.hero{
+    background: linear-gradient(rgba(37,99,235,0.8), rgba(37,99,235,0.8)),
+                url('concert.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.hero p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.hero-btn{
+    background: white;
+    color: #2563eb;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
