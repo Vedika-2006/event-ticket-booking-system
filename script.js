@@ -51,3 +51,6 @@ function bookingSuccess() {
 function selectEvent(eventName){
     document.getElementById("event").value = eventName;
 }
+function toggleDarkMode(){
+    document.body.classList.toggle("dark-mode");
+}
