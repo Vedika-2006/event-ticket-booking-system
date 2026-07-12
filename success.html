@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Successful</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🎉 Booking Successful</h1>
+</header>
+
+<section class="booking-summary">
+
+    <h2>✅ Your Ticket is Confirmed</h2>
+
+    <p><strong>Name:</strong> <span id="sName"></span></p>
+
+    <p><strong>Email:</strong> <span id="sEmail"></span></p>
+
+    <p><strong>Event:</strong> <span id="sEvent"></span></p>
+
+    <p><strong>Tickets:</strong> <span id="sTickets"></span></p>
+
+    <p><strong>Booking ID:</strong> <span id="sBooking"></span></p>
+
+    <p><strong>Seat Number:</strong> <span id="sSeat"></span></p>
+
+    <br>
+
+    <a href="index.html" class="hero-btn">🏠 Back to Home</a>
+
+</section>
+
+<script>
+document.getElementById("sName").textContent = localStorage.getItem("name");
+document.getElementById("sEmail").textContent = localStorage.getItem("email");
+document.getElementById("sEvent").textContent = localStorage.getItem("event");
+document.getElementById("sTickets").textContent = localStorage.getItem("tickets");
+document.getElementById("sBooking").textContent = localStorage.getItem("bookingId");
+document.getElementById("sSeat").textContent = localStorage.getItem("seat");
+</script>
+
+</body>
+</html>
