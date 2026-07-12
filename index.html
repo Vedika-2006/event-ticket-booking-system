@@ -68,10 +68,8 @@
     <p>Time: 7:00 PM</p>
     <p>Ticket Price: ₹500</p>
 
-  <a href="#booking">
-    <button onclick="selectEvent('Avengers Endgame')">
-        Book Ticket
-    </button>
+ <a href="booking.html?event=Avengers%20Endgame">
+    <button>Book Ticket</button>
 </a>
 </div>
 <div class="event-card">
@@ -85,10 +83,8 @@
     <p>Time: 8:00 PM</p>
     <p>Ticket Price: ₹1200</p>
 
-   <a href="#booking">
-    <button onclick="selectEvent('Arijit Singh Live Concert')">
-        Book Ticket
-    </button>
+  <a href="booking.html?event=Arijit%20Singh%20Live%20Concert">
+    <button>Book Ticket</button>
 </a>
 </div>
 
@@ -102,48 +98,12 @@
     <p>Time: 7:30 PM</p>
     <p>Ticket Price: ₹1500</p>
 
-   <a href="#booking">
-    <button onclick="selectEvent('IPL Final')">
-        Book Ticket
-    </button>
+  <a href="booking.html?event=IPL%20Final">
+    <button>Book Ticket</button>
 </a>
 </div>
             </div>
 
-    <section id="booking">
-    <h2>Book Your Ticket</h2>
-
-    <form onsubmit="return bookingSuccess()">
-
-<input type="text" id="name" placeholder="Enter Your Name">
-
-<input type="email" id="email" placeholder="Enter Your Email">
-
-<input type="text" id="event" placeholder="Enter Event Name">
-
-<input type="number" id="tickets" placeholder="Number of Tickets">
-
-        <button type="submit">Submit Booking</button>
-
-    </form>
-</section>
-        <div id="bookingSummary" class="booking-summary" style="display:none;">
-
-    <h2>🎉 Booking Successful!</h2>
-
-    <p><strong>Name:</strong> <span id="sName"></span></p>
-
-    <p><strong>Email:</strong> <span id="sEmail"></span></p>
-
-    <p><strong>Event:</strong> <span id="sEvent"></span></p>
-
-    <p><strong>Tickets:</strong> <span id="sTickets"></span></p>
-
-    <p><strong>Booking ID:</strong> <span id="sBooking"></span></p>
-
-    <p><strong>Seat:</strong> <span id="sSeat"></span></p>
-
-</div>
 <button id="topBtn" onclick="topFunction()">⬆</button>
 
     <!-- Footer -->
